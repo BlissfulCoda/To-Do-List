@@ -21,7 +21,6 @@ function loadAllEventListeners(){
     clearBtn.addEventListener('mouseover', changeName);
     clearBtn.addEventListener('mouseout', changeName2);
     filter.addEventListener('keyup', filterTasks);
-
 }
 
 //Get Tasks from localstorage
