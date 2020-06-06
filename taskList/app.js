@@ -1,3 +1,4 @@
+//UI elements
 const form = document.querySelector('#task-form');
 const taskInput = document.querySelector('#task');
 const filter = document.querySelector('#filter');
