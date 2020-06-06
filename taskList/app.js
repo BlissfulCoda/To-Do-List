@@ -51,7 +51,7 @@ function changeColor(e){
     document.body.style.background = `rgb( ${e.offsetX}, ${e.offsetY}, 200)`;
 }
 
-
+//Add a Task
 function addTask(e){
     if(taskInput.value === ''){
         alert('Please add a task.');
