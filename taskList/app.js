@@ -10,7 +10,7 @@ const card = document.querySelector('.card');
 loadAllEventListeners();
 
 
-//Events function
+//Load Events function
 function loadAllEventListeners(){
     //Dom laod Event
     document.addEventListener('DOMContentLoaded', getTasks);
@@ -25,7 +25,6 @@ function loadAllEventListeners(){
 }
 
 //Get Tasks from localstorage
-
 function getTasks(){
     let tasks;
     if(localStorage.getItem('tasks') === null){
